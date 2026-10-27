@@ -44,7 +44,7 @@ One map, one mode, one room at a time: short matches that anyone can join from a
 | --- | --- | --- |
 | Players per room | 2–16 | Higher than a normal game so the demo audience can join |
 | Match length | 90 seconds | Short enough to run twice during judging |
-| Map | One 1280 × 720 top-down arena | Free CC0 tiles, e.g. Kenney packs |
+| Map | One 1280 × 720 top-down arena | Ready-made in `apps/web/public/assets/maps/` (see `ASSETS.md`) |
 | Standard crystal | 10 points | Spawns every 2 s, max 12 on map |
 | Rare crystal | 25 points | One every 15 s, glows; causes the best races |
 | Controls (desktop) | WASD / arrow keys | |
@@ -139,6 +139,8 @@ A pnpm monorepo with one shared package so the web app and server can never disa
 monad-arena/
   SPEC.md                 # this doc
   CLAUDE.md               # copy of this doc for Claude Code
+  ASSETS.md               # asset pack guide: sheets, animations, Phaser loading code
+  tools/asset-gen/        # Python scripts that generate every asset
   pnpm-workspace.yaml
   .env.example
   packages/
@@ -158,6 +160,7 @@ monad-arena/
       tickets.ts          # EIP-712 ticket signing
       chain.ts            # viem clients, startMatch, event watcher
       funder.ts           # burner funding with limits
+    web/public/assets/    # sprites, arena, UI, fonts, audio + manifest.json (already built)
     web/src/
       main.tsx, App.tsx
       screens/Home.tsx, Lobby.tsx, Results.tsx
@@ -383,7 +386,7 @@ Four screens. The game screen is a Phaser canvas with a React HUD on top; everyt
 
 **HUD tx feed:** newest five `chain:claimed` events, each like `Arpan +25 · 0x3fa1…` linking to `VITE_EXPLORER_URL/tx/<hash>`. The total transaction counter is the demo's visual proof, so make it large.
 
-**Style:** pixel font, dark background, one neon accent for crystals. Keep text at least 16 px on phones.
+**Style:** use the asset pack in `ASSETS.md`: ArenaPixel bitmap font, dark neon palette, cyan standard crystals, magenta rare crystals. Keep text at least 16 px on phones.
 
 ## Build phases with AI prompts
 
@@ -417,7 +420,7 @@ Implement contracts/src/ArenaReferee.sol from the reference in SPEC.md, using Op
 **Phase 2**
 
 ```
-In apps/web, build ArenaScene in Phaser per "Game client spec": 1280x720 world with Scale.FIT, a few wall rectangles, a player sprite moving at SPEED with WASD/arrows and tap-to-move, and locally spawned crystals that disappear on overlap. Single player only, no networking. Use placeholder shapes if no assets are present.
+In apps/web, build ArenaScene in Phaser per "Game client spec": 1280x720 world with Scale.FIT, a few wall rectangles, a player sprite moving at SPEED with WASD/arrows and tap-to-move, and locally spawned crystals that disappear on overlap. Single player only, no networking. Load every asset from apps/web/public/assets/manifest.json as shown in ASSETS.md (pixelArt: true), use arena-bg.png and the wall rectangles in maps/arena.json, and play the player and crystal animations.
 ```
 
 **Phase 3**

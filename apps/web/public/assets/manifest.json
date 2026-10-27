@@ -1,0 +1,1366 @@
+{
+  "pixelArt": true,
+  "world": {
+    "width": 1280,
+    "height": 720
+  },
+  "players": [
+    {
+      "key": "player-red",
+      "type": "spritesheet",
+      "url": "assets/sprites/players/player-red.png",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "origin": [
+        0.5,
+        0.86
+      ],
+      "color": "#ff4d6d",
+      "anims": [
+        {
+          "key": "player-red-walk-down",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-red-walk-left",
+          "frames": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-red-walk-right",
+          "frames": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-red-walk-up",
+          "frames": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-red-idle-down",
+          "frames": [
+            16,
+            17
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-red-idle-up",
+          "frames": [
+            18,
+            19
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-red-idle-left",
+          "frames": [
+            5
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        {
+          "key": "player-red-idle-right",
+          "frames": [
+            9
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      ]
+    },
+    {
+      "key": "player-orange",
+      "type": "spritesheet",
+      "url": "assets/sprites/players/player-orange.png",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "origin": [
+        0.5,
+        0.86
+      ],
+      "color": "#ff9f43",
+      "anims": [
+        {
+          "key": "player-orange-walk-down",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-orange-walk-left",
+          "frames": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-orange-walk-right",
+          "frames": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-orange-walk-up",
+          "frames": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-orange-idle-down",
+          "frames": [
+            16,
+            17
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-orange-idle-up",
+          "frames": [
+            18,
+            19
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-orange-idle-left",
+          "frames": [
+            5
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        {
+          "key": "player-orange-idle-right",
+          "frames": [
+            9
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      ]
+    },
+    {
+      "key": "player-yellow",
+      "type": "spritesheet",
+      "url": "assets/sprites/players/player-yellow.png",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "origin": [
+        0.5,
+        0.86
+      ],
+      "color": "#ffd93d",
+      "anims": [
+        {
+          "key": "player-yellow-walk-down",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-yellow-walk-left",
+          "frames": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-yellow-walk-right",
+          "frames": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-yellow-walk-up",
+          "frames": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-yellow-idle-down",
+          "frames": [
+            16,
+            17
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-yellow-idle-up",
+          "frames": [
+            18,
+            19
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-yellow-idle-left",
+          "frames": [
+            5
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        {
+          "key": "player-yellow-idle-right",
+          "frames": [
+            9
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      ]
+    },
+    {
+      "key": "player-green",
+      "type": "spritesheet",
+      "url": "assets/sprites/players/player-green.png",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "origin": [
+        0.5,
+        0.86
+      ],
+      "color": "#4ade80",
+      "anims": [
+        {
+          "key": "player-green-walk-down",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-green-walk-left",
+          "frames": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-green-walk-right",
+          "frames": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-green-walk-up",
+          "frames": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-green-idle-down",
+          "frames": [
+            16,
+            17
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-green-idle-up",
+          "frames": [
+            18,
+            19
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-green-idle-left",
+          "frames": [
+            5
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        {
+          "key": "player-green-idle-right",
+          "frames": [
+            9
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      ]
+    },
+    {
+      "key": "player-cyan",
+      "type": "spritesheet",
+      "url": "assets/sprites/players/player-cyan.png",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "origin": [
+        0.5,
+        0.86
+      ],
+      "color": "#22d3ee",
+      "anims": [
+        {
+          "key": "player-cyan-walk-down",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-cyan-walk-left",
+          "frames": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-cyan-walk-right",
+          "frames": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-cyan-walk-up",
+          "frames": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-cyan-idle-down",
+          "frames": [
+            16,
+            17
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-cyan-idle-up",
+          "frames": [
+            18,
+            19
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-cyan-idle-left",
+          "frames": [
+            5
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        {
+          "key": "player-cyan-idle-right",
+          "frames": [
+            9
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      ]
+    },
+    {
+      "key": "player-blue",
+      "type": "spritesheet",
+      "url": "assets/sprites/players/player-blue.png",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "origin": [
+        0.5,
+        0.86
+      ],
+      "color": "#4f7cff",
+      "anims": [
+        {
+          "key": "player-blue-walk-down",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-blue-walk-left",
+          "frames": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-blue-walk-right",
+          "frames": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-blue-walk-up",
+          "frames": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-blue-idle-down",
+          "frames": [
+            16,
+            17
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-blue-idle-up",
+          "frames": [
+            18,
+            19
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-blue-idle-left",
+          "frames": [
+            5
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        {
+          "key": "player-blue-idle-right",
+          "frames": [
+            9
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      ]
+    },
+    {
+      "key": "player-purple",
+      "type": "spritesheet",
+      "url": "assets/sprites/players/player-purple.png",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "origin": [
+        0.5,
+        0.86
+      ],
+      "color": "#a78bfa",
+      "anims": [
+        {
+          "key": "player-purple-walk-down",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-purple-walk-left",
+          "frames": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-purple-walk-right",
+          "frames": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-purple-walk-up",
+          "frames": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-purple-idle-down",
+          "frames": [
+            16,
+            17
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-purple-idle-up",
+          "frames": [
+            18,
+            19
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-purple-idle-left",
+          "frames": [
+            5
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        {
+          "key": "player-purple-idle-right",
+          "frames": [
+            9
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      ]
+    },
+    {
+      "key": "player-pink",
+      "type": "spritesheet",
+      "url": "assets/sprites/players/player-pink.png",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "origin": [
+        0.5,
+        0.86
+      ],
+      "color": "#f472b6",
+      "anims": [
+        {
+          "key": "player-pink-walk-down",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-pink-walk-left",
+          "frames": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-pink-walk-right",
+          "frames": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-pink-walk-up",
+          "frames": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-pink-idle-down",
+          "frames": [
+            16,
+            17
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-pink-idle-up",
+          "frames": [
+            18,
+            19
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-pink-idle-left",
+          "frames": [
+            5
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        {
+          "key": "player-pink-idle-right",
+          "frames": [
+            9
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      ]
+    },
+    {
+      "key": "player-neutral",
+      "type": "spritesheet",
+      "url": "assets/sprites/players/player-neutral.png",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "origin": [
+        0.5,
+        0.86
+      ],
+      "color": "#e4e2f0",
+      "anims": [
+        {
+          "key": "player-neutral-walk-down",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-neutral-walk-left",
+          "frames": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-neutral-walk-right",
+          "frames": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-neutral-walk-up",
+          "frames": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        },
+        {
+          "key": "player-neutral-idle-down",
+          "frames": [
+            16,
+            17
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-neutral-idle-up",
+          "frames": [
+            18,
+            19
+          ],
+          "frameRate": 2,
+          "repeat": -1
+        },
+        {
+          "key": "player-neutral-idle-left",
+          "frames": [
+            5
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        },
+        {
+          "key": "player-neutral-idle-right",
+          "frames": [
+            9
+          ],
+          "frameRate": 1,
+          "repeat": -1
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "key": "player-marker",
+      "type": "spritesheet",
+      "url": "assets/sprites/players/player-marker.png",
+      "frameWidth": 48,
+      "frameHeight": 20,
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "anims": [
+        {
+          "key": "player-marker",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frameRate": 6,
+          "repeat": -1
+        }
+      ]
+    },
+    {
+      "key": "player-arrow",
+      "type": "spritesheet",
+      "url": "assets/sprites/players/player-arrow.png",
+      "frameWidth": 18,
+      "frameHeight": 20,
+      "origin": [
+        0.5,
+        1
+      ],
+      "anims": [
+        {
+          "key": "player-arrow",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frameRate": 6,
+          "repeat": -1
+        }
+      ]
+    },
+    {
+      "key": "crystal-standard",
+      "type": "spritesheet",
+      "url": "assets/sprites/crystals/crystal-standard.png",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "origin": [
+        0.5,
+        0.78
+      ],
+      "anims": [
+        {
+          "key": "crystal-standard",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        }
+      ]
+    },
+    {
+      "key": "crystal-rare",
+      "type": "spritesheet",
+      "url": "assets/sprites/crystals/crystal-rare.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        0.5,
+        0.8
+      ],
+      "anims": [
+        {
+          "key": "crystal-rare",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "frameRate": 10,
+          "repeat": -1
+        }
+      ]
+    },
+    {
+      "key": "fx-spawn",
+      "type": "spritesheet",
+      "url": "assets/sprites/fx/fx-spawn.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        0.5,
+        0.75
+      ],
+      "anims": [
+        {
+          "key": "fx-spawn",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "frameRate": 18,
+          "repeat": 0
+        }
+      ]
+    },
+    {
+      "key": "fx-spawn-rare",
+      "type": "spritesheet",
+      "url": "assets/sprites/fx/fx-spawn-rare.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        0.5,
+        0.75
+      ],
+      "anims": [
+        {
+          "key": "fx-spawn-rare",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "frameRate": 18,
+          "repeat": 0
+        }
+      ]
+    },
+    {
+      "key": "fx-pop",
+      "type": "spritesheet",
+      "url": "assets/sprites/fx/fx-pop.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "anims": [
+        {
+          "key": "fx-pop",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "frameRate": 20,
+          "repeat": 0
+        }
+      ]
+    },
+    {
+      "key": "fx-pop-rare",
+      "type": "spritesheet",
+      "url": "assets/sprites/fx/fx-pop-rare.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "anims": [
+        {
+          "key": "fx-pop-rare",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "frameRate": 20,
+          "repeat": 0
+        }
+      ]
+    },
+    {
+      "key": "fx-contested",
+      "type": "spritesheet",
+      "url": "assets/sprites/fx/fx-contested.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "origin": [
+        0.5,
+        0.69
+      ],
+      "anims": [
+        {
+          "key": "fx-contested",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frameRate": 8,
+          "repeat": -1
+        }
+      ]
+    },
+    {
+      "key": "fx-sparkle",
+      "type": "spritesheet",
+      "url": "assets/sprites/fx/fx-sparkle.png",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "anims": [
+        {
+          "key": "fx-sparkle",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frameRate": 12,
+          "repeat": 0
+        }
+      ]
+    },
+    {
+      "key": "fx-dust",
+      "type": "spritesheet",
+      "url": "assets/sprites/fx/fx-dust.png",
+      "frameWidth": 20,
+      "frameHeight": 16,
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "anims": [
+        {
+          "key": "fx-dust",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frameRate": 12,
+          "repeat": 0
+        }
+      ]
+    },
+    {
+      "key": "fx-beaten",
+      "type": "spritesheet",
+      "url": "assets/sprites/fx/fx-beaten.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "anims": [
+        {
+          "key": "fx-beaten",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "frameRate": 12,
+          "repeat": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "key": "arena-bg",
+      "url": "assets/maps/arena-bg.png"
+    },
+    {
+      "key": "logo",
+      "url": "assets/ui/logo.png"
+    },
+    {
+      "key": "tileset",
+      "url": "assets/maps/tileset.png",
+      "tileWidth": 32,
+      "tileHeight": 32
+    }
+  ],
+  "nineSlice": {
+    "slice": 8,
+    "items": [
+      {
+        "key": "bar-bg",
+        "url": "assets/ui/bar-bg.png"
+      },
+      {
+        "key": "bar-fill",
+        "url": "assets/ui/bar-fill.png"
+      },
+      {
+        "key": "button-danger-hover",
+        "url": "assets/ui/button-danger-hover.png"
+      },
+      {
+        "key": "button-danger-pressed",
+        "url": "assets/ui/button-danger-pressed.png"
+      },
+      {
+        "key": "button-danger",
+        "url": "assets/ui/button-danger.png"
+      },
+      {
+        "key": "button-primary-hover",
+        "url": "assets/ui/button-primary-hover.png"
+      },
+      {
+        "key": "button-primary-pressed",
+        "url": "assets/ui/button-primary-pressed.png"
+      },
+      {
+        "key": "button-primary",
+        "url": "assets/ui/button-primary.png"
+      },
+      {
+        "key": "button-secondary-hover",
+        "url": "assets/ui/button-secondary-hover.png"
+      },
+      {
+        "key": "button-secondary-pressed",
+        "url": "assets/ui/button-secondary-pressed.png"
+      },
+      {
+        "key": "button-secondary",
+        "url": "assets/ui/button-secondary.png"
+      },
+      {
+        "key": "input",
+        "url": "assets/ui/input.png"
+      },
+      {
+        "key": "panel-accent",
+        "url": "assets/ui/panel-accent.png"
+      },
+      {
+        "key": "panel",
+        "url": "assets/ui/panel.png"
+      }
+    ]
+  },
+  "atlases": [
+    {
+      "key": "icons",
+      "textureURL": "assets/ui/icons.png",
+      "atlasURL": "assets/ui/icons.json",
+      "frames": [
+        "timer",
+        "trophy",
+        "crystal",
+        "crystal-rare",
+        "bolt",
+        "player",
+        "crown",
+        "check",
+        "cross",
+        "sound-on",
+        "sound-off",
+        "signal",
+        "link"
+      ]
+    }
+  ],
+  "bitmapFonts": [
+    {
+      "key": "arena-font",
+      "textureURL": "assets/fonts/arena-font.png",
+      "fontDataURL": "assets/fonts/arena-font.xml",
+      "size": 14
+    },
+    {
+      "key": "arena-font-outline",
+      "textureURL": "assets/fonts/arena-font-outline.png",
+      "fontDataURL": "assets/fonts/arena-font-outline.xml",
+      "size": 14
+    }
+  ],
+  "audio": {
+    "sfx": [
+      {
+        "key": "sfx-pickup",
+        "urls": [
+          "assets/audio/sfx/pickup.ogg",
+          "assets/audio/sfx/pickup.mp3"
+        ]
+      },
+      {
+        "key": "sfx-pickup-rare",
+        "urls": [
+          "assets/audio/sfx/pickup-rare.ogg",
+          "assets/audio/sfx/pickup-rare.mp3"
+        ]
+      },
+      {
+        "key": "sfx-beaten",
+        "urls": [
+          "assets/audio/sfx/beaten.ogg",
+          "assets/audio/sfx/beaten.mp3"
+        ]
+      },
+      {
+        "key": "sfx-spawn",
+        "urls": [
+          "assets/audio/sfx/spawn.ogg",
+          "assets/audio/sfx/spawn.mp3"
+        ]
+      },
+      {
+        "key": "sfx-countdown-tick",
+        "urls": [
+          "assets/audio/sfx/countdown-tick.ogg",
+          "assets/audio/sfx/countdown-tick.mp3"
+        ]
+      },
+      {
+        "key": "sfx-countdown-go",
+        "urls": [
+          "assets/audio/sfx/countdown-go.ogg",
+          "assets/audio/sfx/countdown-go.mp3"
+        ]
+      },
+      {
+        "key": "sfx-match-end",
+        "urls": [
+          "assets/audio/sfx/match-end.ogg",
+          "assets/audio/sfx/match-end.mp3"
+        ]
+      },
+      {
+        "key": "sfx-ui-click",
+        "urls": [
+          "assets/audio/sfx/ui-click.ogg",
+          "assets/audio/sfx/ui-click.mp3"
+        ]
+      },
+      {
+        "key": "sfx-ui-hover",
+        "urls": [
+          "assets/audio/sfx/ui-hover.ogg",
+          "assets/audio/sfx/ui-hover.mp3"
+        ]
+      },
+      {
+        "key": "sfx-tx-confirm",
+        "urls": [
+          "assets/audio/sfx/tx-confirm.ogg",
+          "assets/audio/sfx/tx-confirm.mp3"
+        ]
+      },
+      {
+        "key": "sfx-join",
+        "urls": [
+          "assets/audio/sfx/join.ogg",
+          "assets/audio/sfx/join.mp3"
+        ]
+      }
+    ],
+    "music": [
+      {
+        "key": "music-arena-loop",
+        "urls": [
+          "assets/audio/music/arena-loop.ogg",
+          "assets/audio/music/arena-loop.mp3"
+        ],
+        "loop": true,
+        "bpm": 128,
+        "seconds": 15
+      }
+    ]
+  },
+  "data": [
+    {
+      "key": "arena-map",
+      "url": "assets/maps/arena.json"
+    }
+  ],
+  "web": {
+    "favicon32": "assets/ui/favicon-32.png",
+    "favicon64": "assets/ui/favicon-64.png",
+    "appleTouchIcon": "assets/ui/apple-touch-icon.png",
+    "ogImage": "assets/ui/og-image.png"
+  }
+}
